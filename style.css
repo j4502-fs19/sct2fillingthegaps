@@ -21,8 +21,8 @@
   bottom: 0;
   left: 0;
   top: 0;
-  width: 100%;
-  height: auto;
+  height: 100%;
+  width: auto;
 }
 
 .button /* we still need to figure out how to make the button latch onto the logo so it sits right under it no matter screen size. */{
@@ -61,13 +61,6 @@
     height: auto;
 }
 
-#project-info{
-  position: flex;
-  margin-left:auto;
-          margin-right:auto;
-          height:auto;
-          width:auto;
-}
 
 
 #navpage a:hover, #navpage a:active {
@@ -80,6 +73,7 @@ background-color: grey;
   flex-wrap:wrap;
   align-content: flex-end;
   justify-content: space-between;
+  padding-bottom: 2px;
 
   }
 
@@ -97,12 +91,8 @@ h1 {
   color: black;
   font-size: 35px;
   font-weight: bold;
-  overflow: visible;
 }
 
-#scroll{
-  overflow: visible;
-}
 /* Top right text story 1*/
 .top-right {
   position: absolute;
@@ -114,7 +104,6 @@ h1 {
   max-width: 1000px;
   min-width: 80px;
   margin: auto;
-  position:fixed;
 }
 
 
