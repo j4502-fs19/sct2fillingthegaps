@@ -21,7 +21,7 @@
   bottom: 0;
   left: 0;
   top: 0;
-  background-size:cover;
+  max-height: 500px;
   opacity: rgba(255, 0, 0, 75); /*lizzie says this is a way to do it but not working yet*/
 }
 
@@ -58,13 +58,12 @@ h1 {
 
 }
 
-
-/*
 .logo{
 display: flex;
 justify-content: center;
+align-content: center;
 }
-*/
+
 
   /*keep all style above this. These are the changes for different sizes
 
