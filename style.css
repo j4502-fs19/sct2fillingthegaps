@@ -72,8 +72,10 @@ h1 {
   right: 16px;
 }
 
-div {
-  font-stretch: ultra-condensed;
+#text {
+  max-width: 1000px;
+  min-width: 80px;
+  margin: auto;
 }
 
 @media (min-width: 599px){
