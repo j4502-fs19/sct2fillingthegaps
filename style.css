@@ -51,6 +51,13 @@ background-color: grey;
 
 }
 
+  #navpage {
+  display:flex;
+  flex-wrap:wrap;
+  align-content: flex-end;
+  justify-content: space-between;
+
+  }
 
 h1 {
   color: black;
@@ -73,15 +80,7 @@ h1 {
 }
 
 
-@media (min-width: 599px){
-  #navpage {
-  display:flex;
-  flex-wrap:wrap;
-  align-content: flex-end;
-  justify-content: space-between;
 
-  }
-}
 
 
 
