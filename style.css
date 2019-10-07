@@ -9,7 +9,16 @@
   opacity: rgba(255, 0, 0, 75); /*lizzie says this is a way to do it but not working yet*/
 }
 
-
+.button {
+    position: fixed;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100px; /* width of button */
+    height: 30px; /* height of button */
+}
 
   /*keep all style above this. These are the changes for different sizes
 
