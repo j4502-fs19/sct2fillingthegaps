@@ -46,13 +46,42 @@ bottom: 0;
 
 }
 
-#navpage {
-grid-template-columns: 2;
-
+#navpage a:hover, #navpage a:active {
+background-color: grey;
 
 }
 
+#navpage {
+display:flex;
+flex-wrap:wrap;
+align-content: flex-end;
+justify-content: space-between;
 
+}
+
+h1 {
+  color: black;
+  font-family: Helvetica, serif;
+  font-size: 35px;
+  text-align: center;
+
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+/* Top right text story 1*/
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+
+
+/*
 
 
   /*keep all style above this. These are the changes for different sizes
