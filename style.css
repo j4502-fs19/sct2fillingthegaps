@@ -1,4 +1,7 @@
-/*video style for landing page*/.header{
+/*video style for landing page*/
+
+
+.header{
   display: flex;
   justify-content: flex-end;
   align-content: flex-end;
@@ -6,7 +9,7 @@
   top: 0;
   margin: 0;
 }
-.stories-page{
+.navigation-page{
   padding-top: 7px;
 }
 
@@ -18,7 +21,7 @@
   bottom: 0;
   left: 0;
   top: 0;
-  max-width: 445px;
+  background-size:cover;
   opacity: rgba(255, 0, 0, 75); /*lizzie says this is a way to do it but not working yet*/
 }
 
@@ -32,6 +35,12 @@
     width: 100px; /* width of button */
     height: 30px; /* height of button */
 }
+/*
+.logo{
+display: flex;
+justify-content: center;
+}
+*/ 
 
   /*keep all style above this. These are the changes for different sizes
 
