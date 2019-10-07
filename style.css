@@ -14,7 +14,6 @@
   padding-top: 7px;
 }
 
-
 #landing-video{
   z-index: -2;
   position: fixed;
@@ -22,29 +21,47 @@
   bottom: 0;
   left: 0;
   top: 0;
-  width: 100%;
-  height: auto;
-  opacity: 95%; /*lizzie says this is a way to do it but not working yet*/
+  height: 100%;
+  width: auto;
 }
 
-.button {
+.button /* we still need to figure out how to make the button latch onto the logo so it sits right under it no matter screen size. */{
     z-index: 1;
     width: 90px; /* width of button */
     height: 25px; /* height of button */
     font-size: 8px;
-    align-content: center;
+    align: center;
+
+    position: fixed;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
 }
 
 .logo{
-display: flex;
-justify-content: center;
-align-content: center;
-left: 0;
-right: 0;
-top: 0;
-bottom: 0;
-
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
 }
+
+
+#landing-page{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+}
+
+
 
 #navpage a:hover, #navpage a:active {
 background-color: grey;
