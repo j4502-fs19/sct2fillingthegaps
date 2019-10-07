@@ -35,12 +35,34 @@
     width: 100px; /* width of button */
     height: 30px; /* height of button */
 }
+
+body {
+  background-image: url("bgdesert.jpg");
+}
+
+/* Container holding the top image and the text on story1.html*/
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+/* Top right text story1.html */
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+figure {
+  text-align: center;
+}
+
 /*
 .logo{
 display: flex;
 justify-content: center;
 }
-*/ 
+*/
 
   /*keep all style above this. These are the changes for different sizes
 
