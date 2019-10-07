@@ -79,6 +79,9 @@ h1 {
   right: 16px;
 }
 
+div {
+  font-stretch: ultra-condensed;
+}
 
 
 
