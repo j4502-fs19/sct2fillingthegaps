@@ -58,6 +58,19 @@ h1 {
 
 }
 
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+/* Top right text story 1*/
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+
 <<<<<<< HEAD
 
 /*
