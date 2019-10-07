@@ -8,6 +8,7 @@
   background-color: white;
   top: 0;
   margin: 0;
+  overflow: hidden;
 }
 .navigation-page{
   padding-top: 7px;
@@ -21,19 +22,27 @@
   bottom: 0;
   left: 0;
   top: 0;
-  max-height: 500px;
-  opacity: rgba(255, 0, 0, 75); /*lizzie says this is a way to do it but not working yet*/
+  width: 100%;
+  height: auto;
+  opacity: 95%; /*lizzie says this is a way to do it but not working yet*/
 }
 
 .button {
-    position: fixed;
-    margin: auto;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    width: 100px; /* width of button */
-    height: 30px; /* height of button */
+    z-index: 1;
+    width: 90px; /* width of button */
+    height: 25px; /* height of button */
+    font-size: 8px;
+    align-content: center;
+}
+
+.logo{
+display: flex;
+justify-content: center;
+align-content: center;
+left: 0;
+right: 0;
+top: 0;
+bottom: 0;
 
 }
 
@@ -76,16 +85,9 @@ h1 {
 
 
 
-<<<<<<< HEAD
+
 
 /*
-=======
->>>>>>> aa3dc412a42d03520a9519179e0ab352bca311af
-.logo{
-display: flex;
-justify-content: center;
-align-content: center;
-}
 
 
   /*keep all style above this. These are the changes for different sizes
