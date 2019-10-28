@@ -1,5 +1,29 @@
 /*video style for landing page*/
 
+.container {
+  position: relative;
+  text-align: left;
+  color: black;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+/* Top right text story 1*/
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+#text {
+  max-width: 1000px;
+  min-width: 80px;
+  margin: auto;
+  font-weight: lighter;
+  font-style: Helvetica, serif;
+  font-size: 16px;
+  text-indent: 2em;
+}
 
 .header{
   display: flex;
@@ -9,47 +33,12 @@
   top: 0;
   margin: 0;
   overflow: hidden;
+  z-index:5;
+
 }
 .navigation-page{
   padding-top: 7px;
 }
-
-#landing-video{
-  z-index: -2;
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  top: 0;
-  height: 100%;
-  width: auto;
-}
-
-.button /* we still need to figure out how to make the button latch onto the logo so it sits right under it no matter screen size. */{
-    z-index: 1;
-    width: 90px; /* width of button */
-    height: 25px; /* height of button */
-    font-size: 8px;
-    align: center;
-
-    position: fixed;
-    margin: auto;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-}
-
-.logo{
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-}
-
 
 #landing-page{
     position: fixed;
@@ -62,13 +51,53 @@
 }
 
 
+#landing-video{
+  z-index: -2;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: auto;
+}
+
+.button /* we still need to figure out how to make the button latch onto the logo so it sits right under it no matter screen size. */{
+    /*z-index: 1;*/
+    width: 90px; /* width of button */
+    height: 25px; /* height of button */
+    font-size: 8px;
+    align: center;
+    /*position: fixed;*/
+    margin: 0 auto;
+    /*left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;*/
+}
+
+.logo{
+    display: flex;
+    flex-flow: column;
+    list-style-type: none;
+    align-content: center;
+    width: 300px;
+    margin:0 auto;
+    /*padding-top: 50px;*/
+}
+
+.button{
+  align-self: center;
+}
+
+
 
 #navpage a:hover, #navpage a:active {
 background-color: grey;
 
 }
 
-  #navpage {
+#navpage {
   display:flex;
   flex-wrap:wrap;
   align-content: flex-end;
