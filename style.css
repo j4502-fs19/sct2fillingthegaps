@@ -137,11 +137,7 @@ h1 {
 }
 
 /* media querie for landing video*/
-@media screen (min-with:1025px) {
-  #landing-video{
-    width: 5%;
-  }
-}
+
 
 
 /*
