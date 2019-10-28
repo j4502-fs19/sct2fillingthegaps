@@ -143,23 +143,6 @@ h1 {
   margin: auto;
 }
 
-@media screen and (min-width:480px) {
-
-#text {
-font-size: 16px;
-
-}
-
-
-}
-
-@media screen and (min-width:1025px){
-
-
-
-
-}
-
 
 
 /*
