@@ -1,5 +1,12 @@
 /*video style for landing page*/
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 .container {
   position: relative;
   text-align: left;
