@@ -15,6 +15,17 @@
   right: 16px;
 }
 
+.fire-color {
+    color: white;
+    position: absolute;
+    top: 235px;
+    left: 16px;
+
+
+}
+
+
+
 #text {
   max-width: 1000px;
   min-width: 80px;
@@ -22,7 +33,11 @@
   font-weight: lighter;
   font-style: Helvetica, serif;
   font-size: 16px;
+<<<<<<< HEAD
 
+
+=======
+>>>>>>> fffe14bcd74a71297436233ebf2f757fe5e25985
 }
 
 .header{
@@ -59,7 +74,6 @@
   left: 0;
   top: 0;
   width: 100%;
-  height: auto;
 }
 
 .button /* we still need to figure out how to make the button latch onto the logo so it sits right under it no matter screen size. */{
@@ -68,6 +82,7 @@
     height: 25px; /* height of button */
     font-size: 8px;
     align: center;
+    align-self: center;
     /*position: fixed;*/
     margin: 0 auto;
     /*left: 0;
@@ -83,21 +98,20 @@
     align-content: center;
     width: 300px;
     margin:0 auto;
-    /*padding-top: 50px;*/
+    justify-content: flex-end;
+    padding-top: 50px;
 }
-
-.button{
-  align-self: center;
-}
-
 
 
 #project-info{
-  z-index: -2;
-  position: relative;
-  padding-top: 300px;
-
+  width: 80%;
+  padding-left:15px;
 }
+/*
+#overview-video{
+  width: 100%;
+  height: auto;
+}*/
 
 #h3{
   text-align: center;
@@ -107,8 +121,6 @@
 }
 
 
-#navpage a:hover, #navpage a:active {
-background-color: grey;
 
 }
 
@@ -133,46 +145,31 @@ h1 {
   .container {
     font-size: 70px;
   }
+  .logo{
+    max-width: 400px;
+  }
+  #video-embed{
+    width:640px;
+    height:360px;
+  }
 }
 
+
+
 /* If the screen size is 600px or less, set the font-size of <div> to 30px */
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 699px) {
   .container {
     font-size: 20px;
   }
-}
-
-
-
-
-
-
-/*Footer*/
-
-
-/*
-
-
-  /*keep all style above this. These are the changes for different sizes
-
-#nav{
-  display: flex;
-  flex-direction: column;
-}
-
-@media (min-width: 599px){
-  #nav{
-    flex-direction: row;
-    justify-content: space-around;
+  .logo{
+    max-width: 500px;
+  }
+  #video-embed{
+    align-items: center;
+    width:800px;
+    height:450px;
   }
 }
 
-@media (min-width: 799px){
-  #nav{
-    flex-direction: row;
-    justify content: space-between;
-  }
-*/
 
-
-}
+>>>>>>> 56d9edc4af5777e08528ca0c49d62d6a290da9aa
