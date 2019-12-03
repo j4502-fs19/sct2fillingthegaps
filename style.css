@@ -112,17 +112,15 @@
 }
 
 
-#navpage a:hover, #navpage a:active {
+/*#navpage a:hover, #navpage a:active {
 background-color: grey;
-
-}
+}*/
 
 #navpage {
   display:flex;
   flex-wrap:wrap;
   align-content: flex-end;
   justify-content: space-between;
-
   }
 
 h1 {
@@ -169,5 +167,5 @@ h1 {
   }
 }
 
-
->>>>>>> 56d9edc4af5777e08528ca0c49d62d6a290da9aa
+/*
+>>>>>>> 56d9edc4af5777e08528ca0c49d62d6a290da9aa*/
