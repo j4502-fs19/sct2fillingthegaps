@@ -29,7 +29,7 @@
   font-weight: lighter;
   font-style: Helvetica, serif;
   font-size: 16px;
-}
+
 
 .header{
   display: flex;
@@ -160,6 +160,28 @@ h1 {
   .logo{
     max-width: 500px;
   }
+
+}
+
+
+
+/*Footer*/
+
+/*
+
+
+  /*keep all style above this. These are the changes for different sizes
+
+#nav{
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 599px){
+  #nav{
+    flex-direction: row;
+    justify-content: space-around;
+
   #video-embed{
     align-items: center;
     width:800px;
