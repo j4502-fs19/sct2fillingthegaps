@@ -117,10 +117,13 @@ background-color: grey;
 }*/
 
 #navpage {
-  display:flex;
-  flex-wrap:wrap;
-  align-content: flex-end;
-  justify-content: space-between;
+  display: grid;
+		grid-template-columns:2fr 2fr;
+		grid-gap:5px;
+		text-align: center;
+		grid-template-areas:
+			"d e"
+			"f g";
   }
 
 h1 {
