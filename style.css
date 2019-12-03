@@ -1,13 +1,5 @@
 /*video style for landing page*/
 
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: left;
-  width: 50%;
-}
-
 .container {
   position: relative;
   text-align: left;
@@ -22,6 +14,17 @@
   top: 8px;
   right: 16px;
 }
+
+.fire-color {
+    color: white;
+    position: absolute;
+    top: 235px;
+    left: 16px;
+
+
+}
+
+
 
 #text {
   max-width: 1000px;
@@ -65,8 +68,7 @@
   bottom: 0;
   left: 0;
   top: 0;
-  height: 100%;
-  width: auto;
+  width: 100%;
 }
 
 .button /* we still need to figure out how to make the button latch onto the logo so it sits right under it no matter screen size. */{
@@ -75,6 +77,7 @@
     height: 25px; /* height of button */
     font-size: 8px;
     align: center;
+    align-self: center;
     /*position: fixed;*/
     margin: 0 auto;
     /*left: 0;
@@ -90,13 +93,27 @@
     align-content: center;
     width: 300px;
     margin:0 auto;
-    /*padding-top: 50px;*/
+    justify-content: flex-end;
+    padding-top: 50px;
 }
 
-.button{
-  align-self: center;
-}
 
+#project-info{
+  width: 80%;
+  padding-left:15px;
+}
+/*
+#overview-video{
+  width: 100%;
+  height: auto;
+}*/
+
+#h3{
+  text-align: center;
+  font-size: 13px;
+  color: black;
+  font-family: Helvetica, serif;
+}
 
 
 #navpage a:hover, #navpage a:active {
@@ -109,8 +126,6 @@ background-color: grey;
   flex-wrap:wrap;
   align-content: flex-end;
   justify-content: space-between;
-  padding-bottom: 2px;
-
 
   }
 
@@ -130,21 +145,19 @@ h1 {
   font-weight: bold;
 }
 
-/* Top right text story 1*/
-.top-right {
-  position: absolute;
-  top: 8px;
-  right: 16px;
-}
-
-/*#text {
-  max-width: 1000px;
-  min-width: 80px;
-  margin: auto;
+/* If the screen size is 600px or less, set the font-size of <div> to 30px */
+@media only screen and (min-width: 699px) {
+  .container {
+    font-size: 20px;
+  }
+  .logo{
+    max-width: 500px;
+  }
 }
 
 
 
+/*Footer*/
 
 /*
 
