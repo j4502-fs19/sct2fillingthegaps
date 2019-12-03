@@ -167,5 +167,14 @@ h1 {
   }
 }
 
-/*
->>>>>>> 56d9edc4af5777e08528ca0c49d62d6a290da9aa*/
+/*footer*/
+
+.footer {
+ position: fixed;
+ left: 0;
+ bottom: 0;
+ width: 100%;
+ background-color: red;
+ color: white;
+ text-align: center;
+}
