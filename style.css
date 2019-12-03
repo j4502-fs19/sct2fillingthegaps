@@ -20,11 +20,7 @@
     position: absolute;
     top: 235px;
     left: 16px;
-
-
 }
-
-
 
 #text {
   max-width: 1000px;
@@ -137,6 +133,13 @@ h1 {
 
 }
 
+#video-embed{
+  width:384px;
+  height:216px;
+}
+
+
+
 /* If the screen size is 601px or more, set the font-size of <div> to 80px */
 @media only screen and (min-width: 601px) {
   .container {
@@ -150,8 +153,6 @@ h1 {
     height:360px;
   }
 }
-
-
 
 /* If the screen size is 600px or less, set the font-size of <div> to 30px */
 @media only screen and (min-width: 699px) {
