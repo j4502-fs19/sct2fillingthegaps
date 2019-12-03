@@ -34,6 +34,7 @@
   font-style: Helvetica, serif;
   font-size: 16px;
 
+
 }
 
 .header{
@@ -118,8 +119,6 @@
 }
 
 
-#navpage a:hover, #navpage a:active {
-background-color: grey;
 
 }
 
