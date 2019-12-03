@@ -145,7 +145,13 @@ h1 {
   .logo{
     max-width: 400px;
   }
+  #video-embed{
+    width:640px;
+    height:360px;
+  }
 }
+
+
 
 /* If the screen size is 600px or less, set the font-size of <div> to 30px */
 @media only screen and (min-width: 699px) {
@@ -155,6 +161,11 @@ h1 {
   .logo{
     max-width: 500px;
   }
+  #video-embed{
+    align-items: center;
+    width:800px;
+    height:450px;
+  }
 }
 <<<<<<< HEAD
 =======
@@ -162,34 +173,4 @@ h1 {
 
 
 
-
-/*Footer*/
-
-
-/*
-
-
-  /*keep all style above this. These are the changes for different sizes
-
-#nav{
-  display: flex;
-  flex-direction: column;
-}
-
-@media (min-width: 599px){
-  #nav{
-    flex-direction: row;
-    justify-content: space-around;
-  }
-}
-
-@media (min-width: 799px){
-  #nav{
-    flex-direction: row;
-    justify content: space-between;
-  }
-*/
-
-
-}
 >>>>>>> 56d9edc4af5777e08528ca0c49d62d6a290da9aa
