@@ -170,8 +170,7 @@ h1 {
   }
 }
 
-/*footer*/
-
+/*footer
 .footer {
  position: fixed;
  left: 0;
@@ -180,4 +179,4 @@ h1 {
  background-color: red;
  color: white;
  text-align: center;
-}
+} */ 
