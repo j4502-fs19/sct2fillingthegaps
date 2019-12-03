@@ -33,7 +33,7 @@
   font-weight: lighter;
   font-style: Helvetica, serif;
   font-size: 16px;
-}
+
 
 .header{
   display: flex;
@@ -116,8 +116,6 @@
 }
 
 
-#navpage a:hover, #navpage a:active {
-background-color: grey;
 
 }
 
@@ -137,13 +135,21 @@ h1 {
 
 }
 
-.container {
-  position: relative;
-  text-align: left;
-  color: black;
-  font-size: 35px;
-  font-weight: bold;
+/* If the screen size is 601px or more, set the font-size of <div> to 80px */
+@media only screen and (min-width: 601px) {
+  .container {
+    font-size: 70px;
+  }
+  .logo{
+    max-width: 400px;
+  }
+  #video-embed{
+    width:640px;
+    height:360px;
+  }
 }
+
+
 
 /* If the screen size is 600px or less, set the font-size of <div> to 30px */
 @media only screen and (min-width: 699px) {
@@ -153,6 +159,7 @@ h1 {
   .logo{
     max-width: 500px;
   }
+
 }
 
 /*header with missourian logo*/
@@ -189,12 +196,8 @@ h1 {
   #nav{
     flex-direction: row;
     justify-content: space-around;
-  }
-}
 
-@media (min-width: 799px){
-  #nav{
-    flex-direction: row;
-    justify content: space-between;
-  }
-*/
+  #video-embed{
+    align-items: center;
+    width:800px;
+    height:450px;
