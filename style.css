@@ -162,22 +162,6 @@ h1 {
 
 }
 
-/*header with missourian logo*/
-
-.header {
-  padding-top: 30px;
-  padding-bottom: 5px;
-}
-
-.top {
-  display: flex;
-}
-
-#missourianlogo {
-  margin: auto;
-  width: 250px;
-  padding-bottom:10px;
-}
 
 
 /*Footer*/
