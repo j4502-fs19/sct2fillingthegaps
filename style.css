@@ -103,7 +103,7 @@
   height: auto;
 }*/
 
-#h3{
+h3{
   text-align: center;
   font-size: 13px;
   color: black;
@@ -116,7 +116,7 @@ background-color: grey;
 }*/
 
 #navpage {
-  display: grid;
+    display: grid;
 		grid-template-columns:2fr 2fr;
 		grid-gap:5px;
 		text-align: center;
@@ -130,6 +130,7 @@ h1 {
   font-family: Helvetica, serif;
   font-size: 35px;
   text-align: center;
+  padding-top: 45px;
 
 }
 
@@ -148,7 +149,6 @@ h1 {
 }
 
 
-
 #footer{
   background: #304779;
   position: fixed;
@@ -160,10 +160,20 @@ h1 {
   align-content: center;
   }
 
-.footertext{
-  color:white;
-  font:
+.footerinfo{
+  list-style-type: none;
+  display:flex;
+  justify-content: space-between;
 }
+
+.missourianfooter{
+  padding-top: 30px;
+  padding-right: 50px;
+}
+
+
+
+
 
 
 /* If the screen size is 601px or more, set the font-size of <div> to 80px */
