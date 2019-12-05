@@ -145,13 +145,12 @@ h1 {
 }
 
 #content-wrap {
-  padding-bottom: 2.5rem;    /* Footer height */
+  padding-bottom: 1rem;
 }
-
+/* Footer height */
 
 #footer{
   background: #304779;
-  position: fixed;
   bottom: 0;
   left: 0;
   right: 0;
@@ -159,6 +158,16 @@ h1 {
   margin: 3;
   align-content: center;
   }
+
+  #footerlanding{
+    background: #304779;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right:0px;
+    /*margin: 3;*/
+    align-content: center;
+    }
 
 .footerinfo{
   list-style-type: none;
