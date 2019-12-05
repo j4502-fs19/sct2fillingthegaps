@@ -152,6 +152,9 @@ h1 {
     width:640px;
     height:360px;
   }
+  .title {
+    width: 250px;
+  }
 }
 
 /* If the screen size is 600px or less, set the font-size of <div> to 30px */
