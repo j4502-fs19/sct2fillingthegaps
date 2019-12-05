@@ -42,8 +42,17 @@
   z-index:5;
 
 }
+
 .navigation-page{
   padding-top: 7px;
+}
+
+.title{
+  padding-top: 15px;
+  align-self: flex-start;
+  position: fixed;
+  top: 0;
+  left:5px;
 }
 
 #landing-page{
@@ -178,6 +187,9 @@ overflow: hidden;
   #video-embed{
     width:640px;
     height:360px;
+  }
+  .title {
+    width: 250px;
   }
 }
 
