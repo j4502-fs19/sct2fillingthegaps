@@ -121,12 +121,13 @@ background-color: grey;
 
 #navpage {
     display: grid;
-		grid-template-columns:2fr 2fr;
-		grid-gap:5px;
+		grid-template-columns:2fr 2fr 2fr;
+		grid-gap:3px;
 		text-align: center;
 		grid-template-areas:
-			"d e"
-			"f g";
+			"d . e"
+			"f . g"
+      "h . i";
   }
 
 h1 {
