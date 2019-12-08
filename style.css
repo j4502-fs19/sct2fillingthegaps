@@ -75,6 +75,10 @@
   top: 0;
   left:5px;
 }
+.map{
+  width:80%;
+  height:300px;
+}
 
 #landing-page{
     position: fixed;
@@ -167,6 +171,7 @@ h2{
 #video-embed{
   width:384px;
   height:216px;
+  border: 0;
 }
 
 #page-container {
@@ -234,7 +239,7 @@ font-size: 30px;
   align-items:center;
 }
 
-#text-about{
+.text-about{
   text-align: center;
   margin-left: 5px;
   text-align: justify;
@@ -258,10 +263,13 @@ font-size: 30px;
   figure{
     width:100%;
   }
-  #text-about{
+  .text-about{
       margin-left: 100px;
   }
 
+.map{
+  height:500px;
+}
 
 }
 
@@ -283,10 +291,13 @@ font-size: 30px;
     width:65%;
   }
 
-  #text-about{
+  .text-about{
       margin-right: 100px;
   }
 
+.map{
+  height:600px;
+}
 }
 
 /*footer
