@@ -234,8 +234,9 @@ font-size: 30px;
   align-items:center;
 }
 
-.text-about{
-  margin: 100px;
+#text-about{
+  text-align: center;
+  margin-left: 5px;
 }
 
 
@@ -254,6 +255,9 @@ font-size: 30px;
 
   figure{
     width:100%;
+  }
+  #text-about{
+      margin-left: 100px;
   }
 
 
@@ -277,7 +281,9 @@ font-size: 30px;
     width:65%;
   }
 
-
+  #text-about{
+      margin-right: 100px;
+  }
 
 }
 
