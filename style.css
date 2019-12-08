@@ -229,7 +229,7 @@ font-size: 30px;
 }
 
 .storybody{
-  align-content: center;
+  margin-left: 250px;
 }
 
 
@@ -247,7 +247,7 @@ font-size: 30px;
   }
 
   figure{
-    width:80%;
+    width:100%;
   }
 
 
@@ -270,6 +270,9 @@ font-size: 30px;
   figure{
     width:65%;
   }
+
+
+
 }
 
 /*footer
