@@ -55,8 +55,11 @@
 
 figcaption{
   font-family: 'Lora', serif;
-}
+font-size: 12px;
 
+font-style: italic;
+
+}
 .header{
   display: flex;
   justify-content: flex-end;
