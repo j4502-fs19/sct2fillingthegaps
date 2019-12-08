@@ -149,6 +149,7 @@ background-color: grey;
 			"d . e"
 			"f . g"
       "h . i";
+    margin-left: 15px;
   }
 
 h1 {
@@ -157,7 +158,6 @@ h1 {
   font-size: 35px;
   text-align: center;
   padding-top: 45px;
-
 }
 
 #video-embed{
@@ -176,13 +176,8 @@ h1 {
 
 #footer{
   background: #304779;
-  /*bottom: 0;
-  left: 0;
-  right: 0;*/
   width: 100%;
-  /*margin: 3;*/
   align-content: center;
-
   }
 
   #footerlanding{
@@ -191,9 +186,7 @@ h1 {
     bottom: 0px;
     left: 0px;
     right:0px;
-    /*margin: 3;*/
     align-content: center;
-
     }
 
 .footerinfo{
@@ -225,6 +218,11 @@ font-size: 30px;
   font: helvetica, serif;
 }
 
+#readme{
+  margin: 10px;
+  margin-left: 30px;
+
+}
 
 
 /* If the screen size is 601px or more, set the font-size of <div> to 80px */
