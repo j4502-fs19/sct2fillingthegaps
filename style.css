@@ -228,9 +228,15 @@ font-size: 30px;
 
 }
 
-/*.storybody{
-  margin-left: 250px;
-}*/
+.storybody{
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+}
+
+.text-about{
+  margin: 100px;
+}
 
 
 /* If the screen size is 601px or more, set the font-size of <div> to 80px */
