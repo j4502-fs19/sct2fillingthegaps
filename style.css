@@ -228,9 +228,9 @@ font-size: 30px;
 
 }
 
-.storybody{
+/*.storybody{
   margin-left: 250px;
-}
+}*/
 
 
 /* If the screen size is 601px or more, set the font-size of <div> to 80px */
@@ -249,7 +249,6 @@ font-size: 30px;
   figure{
     width:100%;
   }
-
 
 }
 
