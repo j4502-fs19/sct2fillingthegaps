@@ -149,13 +149,13 @@ background-color: grey;
 
 #navpage {
     display: grid;
-		grid-template-columns:2fr 2fr 2fr;
+		grid-template-columns:2fr 2fr;
 		grid-gap:3px;
 		text-align: center;
 		grid-template-areas:
-			"d . e"
-			"f . g"
-      "h . i";
+			"d  e"
+			"f  g"
+      "h  i";
     margin-left: 15px;
   font-family: 'Lora', serif;
   }
