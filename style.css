@@ -50,8 +50,11 @@
   min-width: 80px;
   margin: auto;
   font-weight: lighter;
-  font-style: Helvetica, serif;
   font-size: 16px;
+}
+
+figcaption{
+  font-family: 'Lora', serif;
 }
 
 .header{
@@ -136,7 +139,7 @@ h3{
   text-align: center;
   font-size: 13px;
   color: black;
-  font-family: 'Noto Serif JP', serif;
+  font-family: 'Lora', serif;
 }
 
 
@@ -154,11 +157,12 @@ background-color: grey;
 			"f . g"
       "h . i";
     margin-left: 15px;
+  font-family: 'Lora', serif;
   }
 
 h1 {
   color: black;
-  font-family: 'Noto Serif JP', serif;
+  font-family: 'Lora', serif;
   font-size: 40px;
   text-align: center;
   padding-top: 45px;
@@ -166,6 +170,7 @@ h1 {
 h2{
   text-align: center;
   font-size: 25px;
+  font-family: 'Lora', serif;
 }
 
 #video-embed{
