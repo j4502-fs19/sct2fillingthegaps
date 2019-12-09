@@ -57,14 +57,18 @@ figcaption{
   font-family: 'Lora', serif;
 }
 
+
+
 .header{
+  position:sticky;
   display: flex;
   justify-content: flex-end;
   align-content: flex-end;
   background-color: white;
   top: 0;
   margin: 0;
-  overflow: hidden;
+
+  /*overflow: hidden;*/
 }
 
 .navigation-page{
@@ -83,7 +87,7 @@ figcaption{
   height:300px;
 }
 
-#landing-page{
+/*#landing-page{
     position: fixed;
     right: 0;
     bottom: 0;
@@ -91,7 +95,7 @@ figcaption{
     top: 0;
     width: 100%;
     height: auto;
-}
+}*/
 
 #landing-video{
   z-index: -2;
