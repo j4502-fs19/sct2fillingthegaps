@@ -55,6 +55,8 @@
 
 figcaption{
   font-family: 'Lora', serif;
+  font-size: 14px;
+  font-style: italic;
 }
 
 .header{
@@ -67,6 +69,12 @@ figcaption{
   margin: 0;
   overflow: hidden;
 }
+
+teaser {
+  font-size: 20px;
+}
+
+
 
 .navigation-page{
   padding-top: 7px;
