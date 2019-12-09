@@ -70,11 +70,6 @@ figcaption{
   overflow: hidden;
 }
 
-teaser {
-  font-size: 20px;
-}
-
-
 
 .navigation-page{
   padding-top: 7px;
@@ -237,7 +232,7 @@ font-size: 30px;
 .teaser{
   text-align: center;
   color:black;
-  font-size: 10px;
+  font-size: 12px;
   font: helvetica, serif;
 }
 
