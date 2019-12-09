@@ -55,7 +55,8 @@
 
 figcaption{
   font-family: 'Lora', serif;
-}
+font-size: 12px;
+font-style: italic;
 
 
 
@@ -146,20 +147,20 @@ h3{
   font-family: 'Lora', serif;
 }
 
-
-/*#navpage a:hover, #navpage a:active {
-background-color: grey;
+/*.navcaps{
+  font-size: 30px;
 }*/
+
 
 #navpage {
     display: grid;
-		grid-template-columns:2fr 2fr 2fr;
+		grid-template-columns:2fr 2fr;
 		grid-gap:3px;
 		text-align: center;
 		grid-template-areas:
-			"d . e"
-			"f . g"
-      "h . i";
+			"d  e"
+			"f  g"
+      "h  i";
     margin-left: 15px;
   font-family: 'Lora', serif;
   }
@@ -232,8 +233,8 @@ font-size: 30px;
 .teaser{
   text-align: center;
   color:black;
-  font-size: 10px;
-  font: helvetica, serif;
+  font-size: 14px;
+  font-family: 'Lora', serif;
 }
 
 #readme{
