@@ -58,18 +58,18 @@ figcaption{
 font-size: 12px;
 font-style: italic;
 
-
-
 .header{
+<<<<<<< HEAD
   /*position:sticky;*/
+=======
+>>>>>>> parent of 354ddd4... changes to fix headers and everything scroll and clickable
   display: flex;
   justify-content: flex-end;
   align-content: flex-end;
   background-color: white;
   top: 0;
   margin: 0;
-
-  /*overflow: hidden;*/
+  overflow: hidden;
 }
 
 .navigation-page{
@@ -88,7 +88,7 @@ font-style: italic;
   height:300px;
 }
 
-/*#landing-page{
+#landing-page{
     position: fixed;
     right: 0;
     bottom: 0;
@@ -96,7 +96,7 @@ font-style: italic;
     top: 0;
     width: 100%;
     height: auto;
-}*/
+}
 
 #landing-video{
   z-index: -2;
